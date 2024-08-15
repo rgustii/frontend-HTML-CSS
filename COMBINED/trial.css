@@ -1,0 +1,93 @@
+/* register font */
+@font-face {
+    font-family: OSF;
+    src: url(OSF/Orange-Squash-Demo-BF6483cfe8b2bfc.otf);
+}
+body{
+    background-color: cornsilk;
+}
+
+h2{
+    background-color: darkslategrey;
+    padding: 10px;
+    /* padding = jarak antara konten dengan pembatasnya */
+    font-family: OSF;
+    text-transform: uppercase;
+    /* buat setting text */
+    text-shadow: 0px -5px 10px gray;
+    color: rgb(250, 250, 221);
+
+}
+
+p{
+    border-style: solid;
+    /* style = bentuk garis atau pilihan garis */
+    border-radius: 10px;
+    /* mengubah sudut border */
+    border-width: 2px;
+    /* ketebalan garis */
+    
+    box-shadow: 0px -5px 15px gray;
+    /* box-shadow = bayangan pada sekitar element(X Y blur color) */
+    text-shadow: 0px 5px 5px;
+    /* text-shadow = bayangan pada text */
+}
+
+.grid{
+    width: 100vw; /*VW = view port*/
+    display: flex; /*flex = flexible*/
+    flex-wrap: wrap; /*digunakan untuk memotong flow dari children ke bagian bawah*/
+}
+
+/* class "box" yang ada didalam class "grid" */
+.grid .box{
+    width: 150px;
+    height: 150px;
+    font-family: OSF;
+    font-size: 20px;
+    background-color: darkslategrey;
+    color: rgba(203, 203, 177, 0.58);
+    margin: 50px;
+    
+    display: flex;
+    justify-content: center;
+    /* justify-content : perataan elemen children secara horizontal */
+    align-items: center;
+    /* align-items : perataan element children secara vertikal */
+}
+
+.bg-yellow{
+    background-color:rgb(248, 231, 162);
+    border-radius: 10px;
+}
+
+.relative{
+    position: relative;
+    /* position : untuk mengcustom posisi dari sebuah element */
+    /* position-relative :  */
+}
+
+.box-relative{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.box-absolute{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.sticky{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+}
+
+.fixed{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+}

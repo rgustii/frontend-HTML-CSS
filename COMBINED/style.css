@@ -1,0 +1,18 @@
+.container{
+    width: 100vw;
+    /* VW = viewport */
+    height: 100vh;
+    /* VH = tinggi dari layar */
+    background-color: lightgray;
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+#main-tittle{
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Control</title>
+</head>
+<body>
+    <h3>Form Control pada HTML</h3>
+    <form 
+    action="index.html" method="post">
+    <table cellpadding="5">
+        <tr>
+            <td>Input text</td>
+            <td><input type="text" name="Text" id="" placeholder="Nama Lengkap"></td>
+            <!-- untuk watermark pada inputan -->
+        </tr>
+         <tr>
+            <td>textarea</td>
+            <td><textarea name="name" id="" cols="30" rows="5" placeholder=" Alamat Lengkap"></textarea></td>
+            <!-- cols = menentukan jumlah karakter menyamping -->
+            <!-- rows = baris textarea -->
+        </tr>
+        <tr>
+            <td>Input Number</td>
+            <td><input type="number" name="angka" id="" placeholder="Password" aria-placeholder="Usia"></td>
+        </tr>
+        <tr>
+            <td>Input Password</td>
+            <td><input type="password" placeholder="Password"></td>
+        </tr>
+        <tr>
+            <td>Input Data</td>
+            <td><input type="date" name="tanggal"></td>
+        </tr>
+        <tr>
+            <td>Input Time</td>
+            <td><input type="time" name="jam" id=""></td>
+        </tr>
+        <tr>
+            <td>input range</td>
+            <td><input type="range" name="range" id=""></td>
+        </tr>
+        <tr>
+            <td>input radio</td>
+            <td><input type="radio" name="jk" id=""> pria 
+                <input type="radio" name="jk" id=""> wanita</td> 
+            
+        </tr>
+        <tr>
+            <td>checkbox</td>
+            <td>
+                <input type="checkbox" name="hobi" id=""> Sepakbola
+                <input type="checkbox" name="hobi" id=""> Basket
+                <input type="checkbox" name="hobi"> Bola Voli
+            </td>
+        </tr>
+        <tr>
+            <td>Combo Box</td>
+            <td>
+                <select name="jurusan" id="">
+                <option value="">--Pilih Jurusan--</option>
+                <option value="RPL"> Rekayasa Perangkat Lunak</option>
+                <option value="TKJ"> Teknik Komputer dan Jaringan</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Input file</td>
+            <td><input type="file" name="warna" id=""></td>
+        </tr>
+        <tr>
+            <td>Input Color</td>
+            <td><input type="color" name="warna" id=""></td>
+        </tr>
+        <tr>
+            <td>Tombol</td>
+            <td>
+                <button type="button" name="button">Tombol Biasa</button>
+                <button type="submit" name="button">Tombol Submit</button>
+                <button type="reset" name="button">Tombol Reset</button>
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

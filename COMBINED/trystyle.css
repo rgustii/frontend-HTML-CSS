@@ -1,0 +1,50 @@
+body { 
+    background-color: rgba(235, 235, 188, 0.895);
+}
+
+@font-face {
+    font-family: 'OSF';
+    src: url(OSF/Orange-Squash-Demo-BF6483cfe8b2bfc.otf);
+}
+@font-face{
+    font-family: 'EB';
+    src: url(EB/ErikasBuero.ttf);
+}
+h1 {
+    color: rgb(88, 88, 88);
+    font-family: 'OSF' ;
+    font-size: 300%;
+    letter-spacing: 0.5cm;
+
+}
+ p{
+    font-family: 'EB' ;
+    font-size: 20px;
+ }
+ .h{
+    font-family: 'OSF';
+    font-size: 30px;
+    color: rgb(88, 88, 88);
+    letter-spacing: 0.3cm;
+ }
+
+.tittle{
+    font-size: 23px;
+}
+.t3{
+    font-family: 'OSF';
+    font-size: 30px;
+    color: rgb(88, 88, 88);
+    letter-spacing: 0.3cm;
+}
+
+.box1{
+    font-family: 'EB';
+    font-size: 20px;
+    
+}
+
+.box2{
+    font-family: 'EB';
+    font-size: 20px;
+}
